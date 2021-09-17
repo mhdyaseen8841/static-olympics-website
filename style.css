@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+font-family: 'Rubik', sans-serif;
+}
+
+
+.logo-image{
+  width: 46px;
+  height: 40px;
+  
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+  
+  /*nav*/
+ 
+nav{
+	width: 90%;
+	height: 45px;
+	background-color: #fff;
+	line-height: 25px;
+	padding-left: 100px;
+	
+}
+
+
+nav ul{
+	padding-left: 26%;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#000f2c;
+	text-transform: uppercase;
+	padding:0px 42px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000f2c;
+    transition: all .3s ease;
+    
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+   
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+	color: rgb(228, 25, 25);
+}
+
+
+
+
+
+#more {
+  display: none;
+}
+
+
+
+
+
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  #myBtn{
+    border: none;
+    background-color: white;
+    margin-left: 90vw;
+  }
+  

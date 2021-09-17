@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik:ital,wght@1,500&display=swap');
+
+
+/* World Ranking page */
+  h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  table{
+    width:100%;
+    table-layout: fixed;
+  }
+  .tbl-header{
+    background-color: rgba(255,255,255,0.3);
+   }
+  .tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(228, 127, 127, 0.959);
+  }
+  
+  
+  /* demo styles */
+  
+  
+  body{
+    background: -webkit-linear-gradient(left, #c51212, #fa0f0f);
+    background: linear-gradient(to right, #ee0f0f, #df3030);
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  section{
+    margin: 50px;
+  }
+  
+   
+  
+  /* for custom scrollbar for webkit browser*/
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
+}
+
+
+
+  /* header position */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.logo-image{
+  width: 46px;
+  height: 40px;
+  
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+  
+  /*nav*/
+ 
+nav{
+	width: 90%;
+	height: 45px;
+	background-color: #fff;
+	line-height: 25px;
+	padding-left: 100px;
+	
+}
+
+
+nav ul{
+	padding-left: 26%;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#000f2c;
+	text-transform: uppercase;
+	padding:0px 42px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000f2c;
+    transition: all .3s ease;
+    
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+   
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+	color: rgb(228, 25, 25);
+}
+
+
+.BG-color{
+    background-color: #fff;
+}
+
+  
+.button {
+
+    margin-left: 90%;
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 22px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {opacity: 1}
+
+

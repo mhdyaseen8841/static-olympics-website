@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+.body{
+    
+    overflow-x: hidden;
+
+}
+.main-img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-nav{
+    
+    background-color: rgb(228, 25, 25);
+    height: 40px;
+    
+}
+
+/* rgb(255, 145, 0)
+#0369c7
+*/
+/*nav bar*/
+
+nav{
+	
+	height: 45px;
+	background-color: #fff;
+	line-height: 25px;
+	text-align: center;
+	
+}
+
+
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#000f2c;
+	text-transform: uppercase;
+	padding:0px 32px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000f2c;
+    transition: all .3s ease;
+    line-height: 1.2;
+    line-height: 120%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+	color: rgb(228, 25, 25);
+}
+
+
+/* cover image*/
+.cover-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 90%;
+    
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 95px;
+    left: 110px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+
+  
+
+ #cover-img :hover {
+   border-radius: 40%;
+   -webkit-transform: scale(1.9);
+   transform: scale(1.1);
+ }
+
+
+ /*
+carasoul
+
+ */
+
+
+
+ /* external css: flickity.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+
+
+
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 40px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*cardsss cr*/
+
+/* Block */
+.card {
+  width: 275px;
+
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+
+  transition: all .125s;
+  transform: scale(1) translateY(0px);
+}
+
+/* Elements */
+.card__wrapper {
+  padding-top: .1px;
+  padding-bottom: .1px;
+  position: relative;
+
+  background-color: #ffffff;
+  color: #999999;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+}
+.card__wrapper:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 15px;
+  right: 15px;
+  bottom: 0;
+  left: 15px;
+
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.2);
+  transition: all .125s;
+  transform: scale(1) translateY(0px);
+}
+.card__box {
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.card__item  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card__item--small  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card__feature {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.card__img {
+  display: block;
+  max-width: 100%;
+  height: 240px;
+  width: 275px;
+}
+.card__header {
+  position: relative;
+  z-index: 1;
+}
+.card__title {
+  color: #222222;
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.card__label {
+  color: #cccccc;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+.card__divider {
+  display: block;
+  width: 100%;
+  height: 15px;
+
+  border: none;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyOHB4IiBoZWlnaHQ9IjE1cHgiIHZpZXdCb3g9IjAgMCAyOCAxNSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjggMTUiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNERURFREUiIGQ9Ik0yNy41LDdoLTZDMjEuMiwzLjEsMTgsMCwxNCwwUzYuOCwzLjEsNi41LDdoLTZDMC4yLDcsMCw3LjIsMCw3LjVTMC4yLDgsMC41LDhoNmMwLjMsMy45LDMuNSw3LDcuNSw3czcuMi0zLjEsNy41LTdoNkMyNy44LDgsMjgsNy44LDI4LDcuNVMyNy44LDcsMjcuNSw3eiBNMTQsMWMzLjQsMCw2LjIsMi42LDYuNSw2SDcuNUM3LjgsMy42LDEwLjYsMSwxNCwxeiBNMTQsMTRjLTMuNCwwLTYuMi0yLjYtNi41LTZoMTIuOUMyMC4yLDExLjQsMTcuNCwxNCwxNCwxNHoiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.card__body {
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+/* Modifiers */
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.card:hover .card__wrapper {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.05);
+}
+.card:hover .card__wrapper:after {
+  transform: scale(0.95) translateY(10px);
+}
+
+/* Demo */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  margin-top: calc( ( 100vh - 506px ) / 2 );
+  margin-right: 15px;
+  margin-left: 15px;
+  top: 50%;
+}
+
+
+
+

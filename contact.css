@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+font-family: 'Rubik', sans-serif;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*nav*/
+ 
+  nav{
+	width: 90%;
+	height: 45px;
+	background-color: #fff;
+	line-height: 25px;
+	padding-left: 100px;
+	
+}
+
+
+nav ul{
+	padding-left: 26%;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#000f2c;
+	text-transform: uppercase;
+	padding:0px 42px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000f2c;
+    transition: all .3s ease;
+    
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+   
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+	color: rgb(228, 25, 25);
+}
+
+.logo-image{
+    width: 46px;
+    height: 40px;
+    
+    padding-left: 5rem;
+    padding-top: 1rem;
+  }
+
+
+
+
+
+
+
+  .socials {
+    padding: 1.5rem 0;
+    
+  }
+  
+  .socials ul li {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+  }
+  
+  .socials .ico-circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+  
+
+  /*website button*/
+  .myButton {
+    background-color:#000000;
+    border-radius:8px;
+    border:1px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:7px 18px;
+    text-decoration:none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+  
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+
+  
+
+  #myimg{
+     border-radius: 50%; border: solid;border-width: 6px; border-color: rgb(87, 84, 84);background-color:rgb(0, 0, 0) ; width: 150px; height:150px; display: block;
+            margin-left: auto;
+            margin-right: auto; 
+
+
+            -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  #myimg:hover {
+    border-radius: 40%;
+    -webkit-transform: scale(1.9);
+    transform: scale(1.1);
+  }
+  .btn-cntn{
+    padding-top: 10px;
+    display: flex; text-align: center; justify-content: center; 
+  }
+
+  
+  .myButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .myButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .myButton:hover span {
+    padding-right: 25px;
+  }
+  
+  .myButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
